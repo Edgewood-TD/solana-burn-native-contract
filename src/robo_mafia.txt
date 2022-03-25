@@ -1,0 +1,29 @@
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/doge_stake/contract_final$ spl-token create-token 
+Creating token 2Lbe14BqBq6y3z9huns5oWhpihZw2ySKKLch65GMDcoe
+
+Signature: 5uwLasBEj4TR8RKwHTJKTBjnvV82m8nVmsngeLQWRHCnNQCGt6ygwiddVeWRe22sER1JDokN267gpJYgjDdzdokb
+-------------------------
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/doge_stake/contract_final$ spl-token create-account 2Lbe14BqBq6y3z9huns5oWhpihZw2ySKKLch65GMDcoe
+Creating account DyLWAajdUXcpWn5Gw9VJX57nbpshND8fysdWc3pE7jXZ
+
+Signature: 3caRRM5y8HxW6wWy4xvucixbprjDiWu8GbxYepapKuZPtgjJLsHBasgZtKGs3gFJ6wvbT8pJ1k5qz5aHdygdHGNC
+-------------------------
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/doge_stake/contract_final$ spl-token mint 2Lbe14BqBq6y3z9huns5oWhpihZw2ySKKLch65GMDcoe 10000
+Minting 10000 tokens
+  Token: 2Lbe14BqBq6y3z9huns5oWhpihZw2ySKKLch65GMDcoe
+  Recipient: DyLWAajdUXcpWn5Gw9VJX57nbpshND8fysdWc3pE7jXZ
+
+Signature: 4c9gBXcrSYBGHcpTVQWiiAJYNQCaqo5989PKF5Yq937gkFRZgNbrp1m2H7zzk1Marb33iVCF4kLrEkrYf93eZXvy
+
+hamza_sajid@DESKTOP-HQKDS9G:/mnt/c/Users/HAMZA/Documents/BlockChain/doge_stake/contract_final$
+----------------------------
+C:\Users\HAMZA\Documents\BlockChain\doge_stake\client_final\target\debug>staking-nft-client generate_vault_address -e dev -s devnet-test.json --min_period 60 --reward_period 86400
+vault account generated: Es7bo5muhRQW8teoUD4AtQ3oQWR8aH7AZ3nSjmivMv4Z
+tx id: 5efBT5BGRMLkNZG54AN7VN7HFsUyocZWZYi52sFNs6w1fsS8HRzF2g3FtjARjoaqCkcEJg5Vmm1eM9ueLB1MoRQ4
+----------------------------
+C:\Users\HAMZA\Documents\BlockChain\doge_stake\client_final\target\debug>staking-nft-client add_to_whitelist -e dev -s devnet-test.json --reward 1 --candy_machine 5mVzfRMwbFztTXMqbBPSwzbJtpzbf6DX8xL14sAtUvwy
+tx id: 5ucd5WAXphAQEWMndiPwFTQKurxm7LKf7M83baarBCLtHe8ctXSQrDtj17rkfw51Ehcs3y9BLkTAovzrSQ58cKu9
+----------------------------
+C:\Users\HAMZA\Documents\BlockChain\doge_stake\client_final\target\debug>staking-nft-client stake -e dev -s candy_test.json --nft 9doArK4Kpk6ra9crv3zdCfRspdwtw5L7pyWVYedDB32N 
+tx id: 3wMK3g4SxhgK4ycXTUqeDzoJJaCMuFSjwk4CRfEazx34zJUrnQb2Bke3rrcF7PUkPAAvxa76LbnAT7LoJ4McN2Ci
+----------------------------
